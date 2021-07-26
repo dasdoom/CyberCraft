@@ -1,0 +1,165 @@
+interactions:
+- request:
+    body: '{"query": "\n        {\n          user(login:\"dasdoom\") { \n          name\n            repositories(first:
+      100){\n              nodes {\n                name\n              }\n            }\n          }\n        }\n        "}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - token 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
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '228'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.23.0
+    method: POST
+    uri: https://api.github.com/graphql
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWSkksSVSyqlYqLU4tAtF5ibmpSlZKLol5lYlKOkpFqQX5xZkl+UWZqcVg6fwU
+        ECMarjA9sySjNEm3OCcTKJGRX65UqwOXSy1IzFWqja0FAgCX2szbaQAAAA==
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation,
+        Sunset
+      Cache-Control:
+      - no-cache
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 25 Jul 2021 16:52:28 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, Accept, X-Requested-With
+      X-Accepted-OAuth-Scopes:
+      - repo
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v4; format=json
+      X-GitHub-Request-Id:
+      - ECF2:12CE0:2090420:21AA97D:60FD96CC
+      X-OAuth-Scopes:
+      - admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key,
+        admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo,
+        user, workflow, write:discussion, write:packages
+      X-RateLimit-Limit:
+      - '5000'
+      X-RateLimit-Remaining:
+      - '4994'
+      X-RateLimit-Reset:
+      - '1627232037'
+      X-RateLimit-Resource:
+      - graphql
+      X-RateLimit-Used:
+      - '6'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.23.0
+    method: GET
+    uri: https://api.github.com/users/dasdoom
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5VTwW7cIBT8F867gZDUaZGqXnLpIZEqpVGSywpjYhNhsAB7tbHy7x0bb5PsIZJP
+        BjwzbxjeG4n1tXFEkErGyvuWbIipiCiKK855cbkhzld6Nx2Rm+s/xf3DrVUvj/z29ffh5uWRAS4H
+        mWTY9cEC06TURUFpPoxntUlNX/ZRB+Vd0i6dKd/Snh71fw0/L6FRh0VlLoSDE7XOLEqZDrlI3w03
+        qbUn9XPdGf2Oe/bW+j24p2a/kKf/SXCV18bV6wVAGqlPjUZSsP82XdrEtMrKTBjp9MGLTBIRyQdd
+        rbGzUGBm7+BjpEF3ftbqy6iC6ZLxbpWtT0QI+VBLZ17laiEQI/iToVUGZgKIekCDrWJmxki7YAap
+        DlMMQSttBmS6Xu2ECrF06DQa+i9efErYJL2TVTvN27O0UWO6ZDsBrqU7SCDQrx2WRLje2g0pMZx5
+        HqxXc57HP7qVBvOWYY0JWpYWQgvN+OMy7U1KS8/lWhnS9aU1apeTE3xDloO5xYhgx17HsHzYoYnn
+        nUK9hIhkgjvOONuyYnvO7th3wX8Ixp5wlb6rPmHOt+xqyy/u+IVgheDfnsjbP7HCxeV9BAAA
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation,
+        Sunset
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '453'
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 25 Jul 2021 16:52:28 GMT
+      ETag:
+      - W/"4196b74f0ae3b66c923b9ff829ef347bac145f24717c048d43468a317ba064cc"
+      Last-Modified:
+      - Fri, 23 Jul 2021 23:06:25 GMT
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Server:
+      - GitHub.com
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-GitHub-Media-Type:
+      - github.v3; format=json
+      X-GitHub-Request-Id:
+      - FEA8:5B05:27ED3A:28E5C6:60FD96CC
+      X-RateLimit-Limit:
+      - '60'
+      X-RateLimit-Remaining:
+      - '54'
+      X-RateLimit-Reset:
+      - '1627232037'
+      X-RateLimit-Resource:
+      - core
+      X-RateLimit-Used:
+      - '6'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1
