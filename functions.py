@@ -1,5 +1,5 @@
 import requests
-headers = {"Authorization": "token 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"}
+headers = {"Authorization": "token token"}
 
 
 def run_query(query):
